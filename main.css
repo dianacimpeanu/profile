@@ -57,34 +57,36 @@ body{
 }
 #aboutme{
   background-color: whitesmoke;
-  height: 500px;
-  width: 550px;
+  height: 70%;
+  width: 35%;
   border-radius: 20px;
   box-shadow: 20px 20px 50px 20px pink inset ;
-  margin-top: 100px;
+  margin-top: 10%;
 }
 #first{
-  width: 550px;
-  height:200px;
-}
-#profile-pic{
-  width:200px;
-  height:200px;
-  float:left;
-  margin-left:14px;
-  margin-top:14px;
+  width: 100%;
+  height:35%;
+  display:flex;
   
 }
+#profile-pic{
+  width:50%;
+  height:90%;
+  float:left;
+  margin-left:5%;
+  margin-top:5%;
+  margin-bottom:3%;
+}
 img{
- width:100%;
-  height:100%;
+ width:90%;
+  height:50%;
   border-radius:50%;
   transition: all 1s ease-in-out;
 }
 #info{
  float:left;
-  width:300px;
-  height:200px;
+  width:50%;
+  height:100%;
   margin-top:35px; 
 }
 h1,p {
@@ -97,7 +99,7 @@ h1{
 }
 p{
   font-size: 20px;
-  line-height: 30px; /*pt spatiu intre linii*/
+  line-height: 20px; /*pt spatiu intre linii*/
 }
 img:hover{
   transform:scale(1.1);
@@ -105,15 +107,16 @@ img:hover{
   filter:brightness(130%);
 }
 #description{
-  height: 150px;
+  height: 35%;
   width: 100%;
-  margin-top:40px;
+  
 }
 #contact{
-   height: 100px;
+  height: 30%;
   width:100%;
   text-align:center;
-  
+  margin-top:7%;
+  margin-bottom:7%;
 }
 #size{
   font-size: 30px;
